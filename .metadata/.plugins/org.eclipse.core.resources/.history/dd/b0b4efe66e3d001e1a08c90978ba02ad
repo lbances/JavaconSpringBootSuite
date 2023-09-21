@@ -1,0 +1,15 @@
+package pe.edu.idat.model;
+
+public class Producto {
+	
+	private Long id_producto; private String descripcion; private String presentacion; private double precio; private int cantidad;
+
+
+
+	public Producto() {
+		super();
+	}
+	
+	
+
+}

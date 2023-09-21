@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://facultadbances.com/sw"
+	xmlns:tns="http://facultadbances.com/sw"
+	elementFormDefault="qualified">
+	
+	<element name="getCodigoRequest">
+		<complexType>
+			<sequence>
+				<element name="codigo" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="getCodigoResponse">
+		<complexType>
+			<sequence>
+				<element name="facultad" type="tns:facultad"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<!-- Guardar facultad -->
+	<element name="GuardarFacultadRequest">
+		<complexType>
+			<sequence>
+			<element name="codFacultad" type="int"></element>
+			<element name="desFacultad" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GuardarFacultadResponse">
+		<complexType>
+			<sequence>
+				<element name="estado" type="tns:estado"></element>
+				<element name="facultad" type="tns:facultad"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<!-- Fin -->
+	
+	<!-- Eliminar facultad -->
+	<element name="EliminarFacultadRequest">
+		<complexType>
+			<sequence>
+				<element name="codFacultad" type="int"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="EliminarFacultadResponse">
+		<complexType>
+			<sequence>
+				<element name="estado" type="tns:estado"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<!-- Fin -->
+	
+	<complexType name="estado">
+		<sequence>
+			<element name="codigo" type="string"></element>
+			<element name="mensaje" type="string"></element>
+		</sequence>
+	</complexType>
+	
+	<complexType name="facultad">
+		<sequence>
+			<element name="codFacultad" type="int"></element>
+			<element name="desFacultad" type="string"></element>
+		</sequence>
+	</complexType>
+	
+</schema> 

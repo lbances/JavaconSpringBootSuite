@@ -1,0 +1,10 @@
+package edu.idat.pe;
+
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
+
+@Endpoint
+public class PuntosAcceso {
+	
+	private static final String url="http://comercio.com/sw";
+
+}

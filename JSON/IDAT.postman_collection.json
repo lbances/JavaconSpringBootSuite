@@ -1,0 +1,493 @@
+{
+	"info": {
+		"_postman_id": "5604a2c2-f62e-4d92-85bb-c3ec68af1e31",
+		"name": "IDAT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24447294"
+	},
+	"item": [
+		{
+			"name": "DAA2",
+			"item": [
+				{
+					"name": "EC2",
+					"item": [
+						{
+							"name": "Estudiante",
+							"item": [
+								{
+									"name": "Crear",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/estudiante",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"estudiante"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Actualizar",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/estudiante",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"estudiante"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Eliminar",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/estudiante",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"estudiante"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Listar",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/estudiante",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"estudiante"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Notas",
+							"item": [
+								{
+									"name": "Crear",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/notas",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"notas"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Actualizar",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/notas",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"notas"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Eliminar",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/notas",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"notas"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Listar",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/notas",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"notas"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Personal",
+							"item": [
+								{
+									"name": "Crear",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/personal",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"personal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Actualizar",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/personal",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"personal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Eliminar",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/personal",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"personal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Listar",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8085/talleresWeb/rest/personal",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8085",
+											"path": [
+												"talleresWeb",
+												"rest",
+												"personal"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Funciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funciones Por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funciones Crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"idFunciones\": 7,\r\n        \"horaInicio\": \"03:00 PM\",\r\n        \"horaFin\": \"05:00 PM\",\r\n        \"precio\": \"S/10\",\r\n        \"pelicula\": {\r\n            \"idPelicula\": 1,\r\n            \"nombre\": \"Paola Guerrero\",\r\n            \"duracion\": \"1.30\",\r\n            \"clasificacion\": \"Apt\",\r\n            \"idioma\": \"Italiano\",\r\n            \"genero\": \"Animado\",\r\n            \"formato\": \"4D\",\r\n            \"sinopsis\": \"película en estreno\"\r\n        },\r\n        \"sala\": {\r\n            \"idSala\": 1,\r\n            \"nombre\": \"Sala 9\",\r\n            \"capacidad\": 80,\r\n            \"sede\": {\r\n                \"idSede\": 1,\r\n                \"nombre\": \"UVK BASADRE\",\r\n                \"direccion\": \"Calle las Palmeras 208,San Isidro\",\r\n                \"categoria\": {\r\n                    \"idCategoria\": 1,\r\n                    \"codigo\": \"01\",\r\n                    \"descripcion\": \"PREMIUM\"\r\n                },\r\n                \"cine\": {\r\n                    \"idCine\": 1,\r\n                    \"razonSocial\": \"UVK Multicines SA\",\r\n                    \"nombre\": \"UVK\"\r\n                }\r\n            }\r\n        }\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funciones Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"idFunciones\": 7,\r\n        \"horaInicio\": \"09:00 PM\",\r\n        \"horaFin\": \"11:00 PM\",\r\n        \"precio\": \"S/50\",\r\n        \"pelicula\": {\r\n            \"idPelicula\": 1,\r\n            \"nombre\": \"Los pitufos 3\",\r\n            \"duracion\": \"1.30\",\r\n            \"clasificacion\": \"Apt\",\r\n            \"idioma\": \"Italiano\",\r\n            \"genero\": \"Animado\",\r\n            \"formato\": \"4D\",\r\n            \"sinopsis\": \"película en estreno\"\r\n        },\r\n        \"sala\": {\r\n            \"idSala\": 1,\r\n            \"nombre\": \"Sala 9\",\r\n            \"capacidad\": 80,\r\n            \"sede\": {\r\n                \"idSede\": 1,\r\n                \"nombre\": \"UVK BASADRE\",\r\n                \"direccion\": \"Calle las Palmeras 208,San Isidro\",\r\n                \"categoria\": {\r\n                    \"idCategoria\": 1,\r\n                    \"codigo\": \"01\",\r\n                    \"descripcion\": \"PREMIUM\"\r\n                },\r\n                \"cine\": {\r\n                    \"idCine\": 1,\r\n                    \"razonSocial\": \"UVK Multicines SA\",\r\n                    \"nombre\": \"UVK\"\r\n                }\r\n            }\r\n        }\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Funciones Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"idFunciones\": 10,\r\n        \"horaInicio\": \"03:00 PM\",\r\n        \"horaFin\": \"05:00 PM\",\r\n        \"precio\": \"S/10\",\r\n        \"pelicula\": {\r\n            \"idPelicula\": 8,\r\n            \"nombre\": \"Los pitufos 2\",\r\n            \"duracion\": \"1.30\",\r\n            \"clasificacion\": \"Apt\",\r\n            \"idioma\": \"Italiano\",\r\n            \"genero\": \"Animado\",\r\n            \"formato\": \"4D\",\r\n            \"sinopsis\": \"película en estreno\"\r\n        },\r\n        \"sala\": {\r\n            \"idSala\": 1,\r\n            \"nombre\": \"Sala 9\",\r\n            \"capacidad\": 80,\r\n            \"sede\": {\r\n                \"idSede\": 1,\r\n                \"nombre\": \"UVK BASADRE\",\r\n                \"direccion\": \"Calle las Palmeras 208,San Isidro\",\r\n                \"categoria\": {\r\n                    \"idCategoria\": 1,\r\n                    \"codigo\": \"01\",\r\n                    \"descripcion\": \"PREMIUM\"\r\n                },\r\n                \"cine\": {\r\n                    \"idCine\": 1,\r\n                    \"razonSocial\": \"UVK Multicines SA\",\r\n                    \"nombre\": \"UVK\"\r\n                }\r\n            }\r\n        }\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DAA2 Funciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8085/carteleraWeb/rest/funciones",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8085",
+							"path": [
+								"carteleraWeb",
+								"rest",
+								"funciones"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HP2",
+			"item": [
+				{
+					"name": "Consulta de personas por número",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mypeconsultores-api-idat.herokuapp.com/api/personas/3",
+							"protocol": "https",
+							"host": [
+								"mypeconsultores-api-idat",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"personas",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consulta SUNAT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billConsultService",
+							"protocol": "https",
+							"host": [
+								"e-beta",
+								"sunat",
+								"gob",
+								"pe"
+							],
+							"path": [
+								"ol-ti-itcpfegem-beta",
+								"billConsultService"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+package pe.edu.idat.repository;
+
+public class ProductoRepository {
+
+}

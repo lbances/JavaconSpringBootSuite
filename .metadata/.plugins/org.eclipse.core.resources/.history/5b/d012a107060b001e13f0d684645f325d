@@ -1,0 +1,33 @@
+package edu.idat.pe;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class ServicioProducto {
+	
+	private IProducto iproducto;
+	
+	@Autowired
+	public ServicioProducto(IProducto iproducto) {
+		this.iproducto = iproducto;
+	}
+	
+	public CProducto buscarcodigo(Long cod) {
+		return iproducto.findById(cod).get();
+	}
+	
+	public List<CProducto> listarproductos(){
+		List<CProducto> lista = new ArrayList<>();
+		iproducto.findAll().forEach(e->lista.add(e));
+		return lista;
+	}
+	
+
+}

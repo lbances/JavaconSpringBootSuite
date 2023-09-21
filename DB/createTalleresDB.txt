@@ -1,0 +1,72 @@
+-- MySQL Workbench Forward Engineering
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+-- -----------------------------------------------------
+-- Schema talleresdb
+-- -----------------------------------------------------
+DROP SCHEMA IF EXISTS `talleresdb` ;
+-- -----------------------------------------------------
+-- Schema talleresdb
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `talleresdb` DEFAULT CHARACTER SET utf8 ;
+USE `talleresdb` ;
+
+-- -----------------------------------------------------
+-- Table `talleresdb`.`Estudiante`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `talleresdb`.`estudiante` ;
+
+CREATE TABLE IF NOT EXISTS `talleresdb`.`estudiante` (
+  `idEstudiante` INT NOT NULL auto_increment,
+  `Nombre` VARCHAR(75) NOT NULL,
+  `Apellidos` VARCHAR(75) NOT NULL,
+  `Dni` INT NOT NULL,
+  `Codigo_est` VARCHAR(20) NOT NULL,
+  `idGrado` INT NOT NULL,
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- -----------------------------------------------------
+-- Table `talleresdb`.`Notas`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `talleresdb`.`notas` ;
+
+CREATE TABLE IF NOT EXISTS `talleresdb`.`notas` (
+  `idNotas` INT NOT NULL auto_increment,
+  `Nota1` DECIMAL NOT NULL,
+  `Nota2` DECIMAL NOT NULL,
+  `Nota3` DECIMAL NOT NULL,
+  `Nota4` DECIMAL NOT NULL,
+  `Promedio` DECIMAL NOT NULL,
+  `idPeriodo` INT NOT NULL,
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- -----------------------------------------------------
+-- Table `talleresdb`.`Personal`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `talleresdb`.`personal` ;
+
+CREATE TABLE IF NOT EXISTS `talleresdb`.`personal` (
+  `idPersonal` INT NOT NULL auto_increment,
+  `Nombre` VARCHAR(55) NOT NULL,
+  `Apellidos` VARCHAR(75) NOT NULL,
+  `Usuario` VARCHAR(10) NOT NULL,
+  `Clave` VARCHAR(8) NOT NULL,
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- -----------------------------------------------------
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+commit;

@@ -1,0 +1,5 @@
+package pe.edu.idat.model;
+
+public class Producto {
+
+}

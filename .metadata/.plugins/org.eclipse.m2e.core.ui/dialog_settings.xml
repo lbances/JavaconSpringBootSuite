@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\lbanc\Desktop\Idat\Ciclo V\6. Aplicaciones con Enfoque Orientado a Servicios\Logro 4\Tema 12\AplicacionSOAP"/>
+			<item value="C:\Users\lbanc\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AplicacionSOAP"/>
+			<item value="C:\Users\lbanc\Desktop\Idat\Ciclo IV\6. Desarrollo Avanzado de Aplicaciones II\Logro 3\Tema 9\Sábado 18-03\WAProyectoNro5"/>
+			<item value="C:\Users\lbanc\Desktop\Idat\Ciclo IV\6. Desarrollo Avanzado de Aplicaciones II\Logro 3\Tema 9\Sábado 18-03\ProyectoMatricula"/>
+			<item value="C:\Users\lbanc\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\WAProyectoNro5"/>
+			<item value="C:\Users\lbanc\Desktop\Idat\Ciclo IV\6. Desarrollo Avanzado de Aplicaciones II\Logro 2\Tema 7\EC2\Proyecto STS\EC2_LeonardoBances"/>
+			<item value="C:\Users\lbanc\Downloads\EC2_LeonardoBances"/>
+			<item value="C:\Users\lbanc\Downloads\S06-SpringMVCWebApp - copia"/>
+			<item value="C:\Users\lbanc\Downloads\S06-SpringMVCWebApp"/>
+			<item value="C:\Users\lbanc\Downloads\S06-SpringMVCWebApp3"/>
+			<item value="C:\Users\lbanc\Desktop\Idat\Ciclo IV\6. Desarrollo Avanzado de Aplicaciones II\S06-SpringMVCWebApp (1)"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

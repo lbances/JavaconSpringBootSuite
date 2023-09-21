@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://comercio.com/sw"
+	xmlns:tns="http://comercio.com/sw"
+	elementFormDefault="qualified">
+	
+	<element name="getCodigoRequest">
+		<complexType>
+			<sequence>
+				<element name="codigo" type="long"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="getCodigoResponse">
+		<complexType>
+			<sequence>
+				<element name="producto" type="tns:producto"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<!-- Guardar producto -->
+	<element name="GuardarProductoRequest">
+		<complexType>
+			<sequence>
+				<element name="codpro" type="long"></element>
+				<element name="codcat" type="long"></element>
+				<element name="despro" type="string"></element>
+				<element name="unipro" type="string"></element>
+				<element name="pcopro" type="double"></element>
+				<element name="pvepro" type="double"></element>
+				<element name="stopro" type="double"></element>
+				<element name="frepro" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GuardarProductoResponse">
+		<complexType>
+			<sequence>
+				<element name="estado" type="tns:estado"></element>
+				<element name="producto" type="tns:producto"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<!-- Fin -->
+	
+	<!-- Eliminar Producto -->
+	<element name="EliminarProductoRequest">
+		<complexType>
+			<sequence>
+				<element name="codigo" type="long"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="EliminarProductoResponse">
+		<complexType>
+			<sequence>
+				<element name="estado" type="tns:estado"></element>
+			</sequence>
+		</complexType>
+	</element>
+	<!-- Fin -->
+	
+	<complexType name="estado">
+		<sequence>
+			<element name="codigo" type="string"></element>
+			<element name="mensaje" type="string"></element>
+		</sequence>
+	</complexType>
+	
+	<complexType name="producto">
+		<sequence>
+			<element name="codpro" type="long"></element>
+			<element name="codcat" type="long"></element>
+			<element name="despro" type="string"></element>
+			<element name="unipro" type="string"></element>
+			<element name="pcopro" type="double"></element>
+			<element name="pvepro" type="double"></element>
+			<element name="stopro" type="double"></element>
+			<element name="frepro" type="string"></element>
+		</sequence>
+	</complexType>
+	
+</schema>

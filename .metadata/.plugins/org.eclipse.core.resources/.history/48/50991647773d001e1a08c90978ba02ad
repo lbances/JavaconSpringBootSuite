@@ -1,0 +1,47 @@
+package pe.edu.idat.repository;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Repository;
+
+import pe.edu.idat.model.Producto;
+
+@Repository
+public class ProductoRepository {
+	
+	private static Map<Long, Producto> DBProductos = new HashMap<>();
+	
+    static {
+        Producto producto1=new Producto(1L,"Caramelos","Bolsa",5.00,100);
+        Producto producto2=new Producto(2L,"Chocolates","Caja",8.00,50);
+        Producto producto3=new Producto(3L,"Galletas","Bolsa",10.00,70);
+
+        DBProductos.put(producto1.getId_producto(),producto1);
+        DBProductos.put(producto2.getId_producto(),producto2);
+        DBProductos.put(producto3.getId_producto(),producto3);
+    }
+
+    public Collection<Producto> findAll() {
+        return new ArrayList<>(DBProductos.values());
+    }
+    
+    public Producto findById(Long id_producto) {
+    	return DBProductos.get(id_producto);
+    }
+    
+    public Producto insert(Producto producto) {        
+        Long id_producto= Long.valueOf(DBProductos.size()+1);
+        producto.setId_producto(id_producto);
+        DBProductos.put(id_producto, producto);
+        return producto;
+    }
+    
+    public Producto update(Producto producto) {
+    	DBProductos.put(producto.getId_producto(), producto);
+    	return producto;
+    }
+
+}

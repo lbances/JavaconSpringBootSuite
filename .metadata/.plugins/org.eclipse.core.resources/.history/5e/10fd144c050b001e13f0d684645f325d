@@ -1,0 +1,22 @@
+package edu.idat.pe;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import jakarta.transaction.Transactional;
+
+@Service
+@Transactional
+public class ServicioProducto {
+	
+	private IProducto iproducto;
+	
+	@Autowired
+	public ServicioProducto(IProducto iproducto) {
+		this.iproducto = iproducto;
+	}
+	
+	public CProducto buscarcodigo()
+	
+
+}

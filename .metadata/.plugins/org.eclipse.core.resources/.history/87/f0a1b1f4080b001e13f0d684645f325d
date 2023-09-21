@@ -1,0 +1,18 @@
+package edu.idat.pe;
+
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.ApplicationContext;
+import org.springframework.ws.config.annotation.EnableWs;
+import org.springframework.ws.transport.http.MessageDispatcherServlet;
+
+@EnableWs
+@Configurable
+public class Configuracion {
+	
+	@Bean
+	public ServletRegistrationBean<MessageDispatcherServlet> mensaje(ApplicationContext ac){
+		
+	}
+
+}
